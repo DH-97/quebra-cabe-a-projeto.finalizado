@@ -1,0 +1,12 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+}
+
+td.character {
+    background-color: rgb(86, 86, 86);
+    cursor: pointer;
+
+}

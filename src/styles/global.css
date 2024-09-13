@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Matemasie&family=Press+Start+2P&display=swap');
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	
+}
+
+body {
+	color: #cfcdcd;
+	margin: 0;
+	padding: 8px;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	background-image: url('/images/fundo.png'); /* plano de fundo */
+	text-align: center;	
+	background-position: center center;
+	background-size: 100%;
+}
+
+h1 {
+ 	color: rgb(255, 255, 255);
+ 	font-weight: bold;
+	 font-family: "Press Start 2P", system-ui;
+	 font-weight: 400;
+	 font-style: normal;
+   }
+
+	
+
+.menu {
+	display: block;
+	font-size: 20px;/* tamanho da letra */
+	margin: auto;
+	margin-bottom: 5px;
+	border-style: solid;
+	border-width: 3px;
+	width: 20%; /* LARGURA DO BOTÃO */
+	padding: 5px;
+	background-color: rgb(244, 236, 236);
+	border: 3px solid black;
+	text-align: center; /* ALINHAR TEXTO */
+	text-decoration: none;
+	color: black; /* COR */
+	padding: 5px 0px 5px 0px; /* ESPAÇAMENTO */
+	border-radius: 25px; /* BORDA ARREDONDADA */
+
+}
+
+.menu:hover{
+	background-color: #de0703;
+}
+
+.menu:visited{
+	color: rgb(40, 39, 39);
+}
+img {
+	max-width: 200px;
+	height: 100px;
+	width: 100px;
+}
+a {
+	color: rgb(146, 185, 219);
+}
+p {
+	font-size: medium;
+}
+h3{
+	color: rgb(235, 0, 0);
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+
+}
+
+td.character {
+    background-color: rgb(86, 86, 86);
+    cursor: pointer;
+
+}
+
+
+
+
+  
+
+  
